@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  background: url("../public/black-tile-2.png"), #000000;
+  background-position: right;
+  /* background-repeat: no-repeat;  */
+  background-size: 300px, auto, contain;
+
+  @media screen and (max-width: 700px) {
+    background: #000000;
+  }
+  
+}
+
+.heroImage {
+  border-radius: 50%;
+  width: 200px;
 }
 
 .App-logo {
@@ -14,7 +28,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
+  background: linear-gradient(90deg, #000000, #000000, #00000000);
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
