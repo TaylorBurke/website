@@ -1,15 +1,15 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "fiveeight",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "Services",
       "href": "product"
     },
     {
-      "name": "Features",
+      "name": "Case Studies",
       "href": "features"
     },
 
@@ -59,7 +59,7 @@
     "title": "Case studies",
     "subtitle": "Marketing and App Development",
     "description": "Highlighting some of our recent projects",
-      "items": [
+    "items": [
       {
         "name": "Marketing Caryn's Courses",
         "description": "Caryn, a passionate educator, wanted to take her subscription-based online courses to the next level. With two major events on the horizon, she needed a quick and effective solution to revamp her offerings and pricing tiers. We sprang into action, working closely with Caryn to refresh her website, introducing new pricing tiers that added value to her courses. Our agile team ensured everything was ready just in time for the upcoming events, where Caryn would enjoy massive exposure. Caryn's courses became even more appealing, drawing a larger audience, and her events were a resounding success. She burst into the influencer scene with our help and achieved impressive results.",
@@ -136,7 +136,7 @@
     ],
     "socialMedia": {
       "github": "https://github.com/TaylorBurke",
-      "twitter": "https://twitter.com/issaafkattan",
+      "stackOverflow": "https://stackoverflow.com/users/10199475/taylor-burke",
       "linkedin": "https://www.linkedin.com/in/Taylor-Burke/"
     }
   }
