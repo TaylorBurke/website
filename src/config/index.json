@@ -24,7 +24,7 @@
   ],
   "callToAction": {
     "text": "Get started",
-    "href": "#"
+    "href": "https://forms.gle/duWHe3W3di7qwTvD7"
   },
   "mainHero": {
     "title": "Personalized",
@@ -32,7 +32,7 @@
     "description": "Ready to burst into action with our nimble and experienced team? From concept to designing and implementing your pipeline, bringing your vision to the web is what we do best.",
     "img": "/assets/images/office.png",
     "primaryAction": {
-      "text": "Quick Quote",
+      "text": "Quick quote",
       "href": "https://forms.gle/duWHe3W3di7qwTvD7"
     },
     "secondaryAction": {
@@ -82,7 +82,7 @@
         "features": [
           "Publish in about 2 weeks",
           "Supplementary content",
-          "1 year of free hosting",
+          "1 year of free hosting*",
           "Phone and email support"
         ]
       },
@@ -94,7 +94,7 @@
         "features": [
           "You decide the timeline",
           "Premium content creation",
-          "2 years of free hosting",
+          "2 years of free hosting*",
           "Performance analytics"
         ]
       },
@@ -105,7 +105,7 @@
         "features": [
           "Extensive integration",
           "Complex features",
-          "Pay when you're satisfied",
+          "Pay when you're satisfied†",
           "Priority support"
         ]
       }
@@ -114,24 +114,24 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "Blog",
+        "href": "https://five-eight.beehiiv.com/",
+        "content": ""
       },
       {
-        "name": "Something",
+        "name": "Testemonials",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": ""
       },
       {
-        "name": "Something",
+        "name": "Gallery",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": ""
       },
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "Linktree",
+        "href": "https://linktr.ee/taylorburke",
+        "content": ""
       }
     ],
     "socialMedia": {

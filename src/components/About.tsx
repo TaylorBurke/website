@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
+      className="bg-gray-900 mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12 max-w-[100%]"
     >
       <div className="flex flex-col items-center justify-center">
         <div>
@@ -21,7 +21,7 @@ const About = () => {
             <a
               key={`${section.name}-${index}`}
               href={section.href}
-              className="hover:text-primary text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
+              className="hover:text-primary text-base cursor-pointer leading-4 text-gray-700 dark:text-gray-400 dark:hover:text-white"
             >
               {section.name}
             </a>
@@ -35,7 +35,7 @@ const About = () => {
             rel="noreferrer"
           >
             <svg
-              className="fill-current text-gray-800 dark:text-white hover:text-primary"
+              className="fill-current text-gray-700 dark:text-white hover:text-primary"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -51,7 +51,7 @@ const About = () => {
             rel="noreferrer"
           >
             <svg
-              className="fill-current text-gray-800 dark:text-white hover:text-primary"
+              className="fill-current text-gray-700 dark:text-white hover:text-primary"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -71,7 +71,7 @@ const About = () => {
               width="16"
               height="16"
               fill="currentColor"
-              className="fill-current text-gray-800 dark:text-white hover:text-primary"
+              className="fill-current text-gray-700 dark:text-white hover:text-primary"
               viewBox="0 0 16 16"
             >
               <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282h9.984z" />
@@ -79,13 +79,24 @@ const About = () => {
             </svg>
           </a>
         </div>
-        <div className="flex items-center mt-6">
-          <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
+        <div className="flex flex-col items-center mt-6 ">
+          <div className="flex flex-row max-w-xl">
+            <p className="px-2 mt-6 text-xs lg:text-sm leading-none text-gray-800 dark:text-gray-50">
+              *Free hosting is offered on all projects, however, depending on
+              your requirements, you may choose to host your project on your own
+              server or pay for a hosting plan.
+            </p>
+            <p className="px-2 mt-6 text-xs lg:text-sm leading-none text-gray-800 dark:text-gray-50">
+              †For first time clients a deposit may be required, with remaining
+              balances payable on terms of contract.
+            </p>
+          </div>
+          <p className=" mt-6 text-xs lg:text-sm leading-none text-gray-700 dark:text-gray-50">
             &copy; {new Date().getFullYear()} designed by{" "}
             <a href="https://github.com/issaafalkattan" rel="nofollow">
               Issaaf Kattan
             </a>{" "}
-            and Taylor Burke
+            and <a href="https://linktr.ee/taylorburke">Taylor Burke</a>
           </p>
         </div>
       </div>
