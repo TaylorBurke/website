@@ -2,6 +2,7 @@
   "name": "five-eight-landing-page",
   "version": "1.0.0",
   "scripts": {
+    "legacy": "--openssl-legacy-provider start",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -54,5 +55,5 @@
     "tailwindcss": "^2.2.17",
     "typescript": "^4.4.4"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
