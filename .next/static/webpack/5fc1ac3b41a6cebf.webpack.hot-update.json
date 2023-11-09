@@ -1,1 +1,0 @@
-{"c":["pages/index","webpack"],"r":[],"m":["./src/components/Canvas.tsx","./src/components/Wave.tsx","./src/hooks/useCanvas.ts","./src/hooks/useResponsiveSize.ts","./src/utils/wave.ts"]}

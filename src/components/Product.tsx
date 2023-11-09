@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import config from '../config/index.json';
-import Divider from './Divider';
+import config from "../config/index.json";
+import Divider from "./Divider";
 
 const Product = () => {
   const { product } = config;
@@ -13,12 +13,12 @@ const Product = () => {
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
-          {product.title.split(' ').map((word, index) => (
+          {product.title.split(" ").map((word, index) => (
             <span
               key={index}
-              className={index % 2 ? 'text-primary' : 'text-border'}
+              className={index % 2 ? "text-primary" : "text-border"}
             >
-              {word}{' '}
+              {word}{" "}
             </span>
           ))}
         </h1>
@@ -56,6 +56,14 @@ const Product = () => {
                 {secondItem?.title}
               </h3>
               <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
+              <div className="mt-3 sm:mt-0 sm:ml-3">
+                <a
+                  href={"#"}
+                  className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-primary bg-background hover:border-background hover:bg-gray-700 hover:text-background md:py-4 md:text-lg md:px-10`}
+                >
+                  Explore our client testimonials
+                </a>
+              </div>
             </div>
           </div>
         </div>
