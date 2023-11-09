@@ -1,5 +1,5 @@
 {
-  "name": "react-landing-page-2021",
+  "name": "five-eight-landing-page",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
@@ -22,6 +22,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scroll": "^1.8.4",
+    "react-scripts": "^5.1",
     "smooth-scroll": "^16.1.3",
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
