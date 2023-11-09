@@ -16,6 +16,14 @@ const About = () => {
         <div>
           <img src={logo} alt={companyName} className="w-16 h-16" />
         </div>
+        <h1 className="italic text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
+          <span className="block xl:inline text-red-700">
+            five
+            <span className="text-background">
+              <span className=" text-primary">.</span>ɘight
+            </span>
+          </span>{" "}
+        </h1>
         <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
           {sections.map((section, index) => (
             <a

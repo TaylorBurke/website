@@ -58,7 +58,7 @@ const Product = () => {
               <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
-                  href={"#"}
+                  href={"https://testimonial.to/five-ɘight"}
                   className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-primary bg-background hover:border-background hover:bg-gray-700 hover:text-background md:py-4 md:text-lg md:px-10`}
                 >
                   Explore our client testimonials
