@@ -24,6 +24,18 @@ const About = () => {
             </span>
           </span>{" "}
         </h1>
+        <p className="max-w-xl mt-6 text-xs lg:text-sm leading-none text-gray-700 dark:text-gray-50">
+          In 2016 I began offering web design services to help friends and
+          family establish brands online and maintain creative control while
+          enjoying expert results at reasonable prices. Over the years we've
+          grown our offerings to help numerous individuals, businesses, abd
+          nonprofits expand their online products and services. We're proud to
+          work with some of the most talented people in the industry to deliver
+          incredible outcomes for our clients.
+        </p>
+        <p className="max-w-xl mt-3 text-xs lg:text-sm leading-none text-gray-700 dark:text-gray-50">
+          Taylor Burke, Director
+        </p>
         <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
           {sections.map((section, index) => (
             <a
