@@ -28,7 +28,7 @@ const About = () => {
           In 2016 I began offering web design services to help friends and
           family establish brands online and maintain creative control while
           enjoying expert results at reasonable prices. Over the years we've
-          grown our offerings to help numerous individuals, businesses, abd
+          grown our offerings to help numerous individuals, businesses, and
           nonprofits expand their online products and services. We're proud to
           work with some of the most talented people in the industry to deliver
           incredible outcomes for our clients.
